@@ -10,10 +10,10 @@ echo "Installing Nginx"
 dnf install nginx -y
 
 if [ $? -ne 0 ]; then
-    echo "Installing Nginx ... FAILURE"
-    exit 1
- else
-     echo "Installing Nginx ... SUCCESS"
+            echo "$2 ... FAILURE"
+            exit 1
+        else
+            echo "$2 ... SUCCESS"
   fi
 
   dnf install mysql -y

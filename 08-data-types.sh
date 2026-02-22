@@ -8,7 +8,6 @@ SUM=$((NUM1+NUM2))
 echo "Sum is: $SUM"
 
 #array
+FRUITS=("apple" "Banana" "Pomo")
 
-FRUITS=("apple "Banana" "Pomo")
-
-echo "Fruits are: ${FRUITS[@]}"
+echo  "Fruits are: ${FRUITS[@]}"
